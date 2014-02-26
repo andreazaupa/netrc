@@ -22,7 +22,7 @@ class Netrc
   # Reads path and parses it as a .netrc file. If path doesn't
   # exist, returns an empty object. Decrypt paths ending in .gpg.
   def self.read(path=default_path)
-    nil #FOR TESTING PURPOSE
+    {} #FOR TESTING PURPOSE
   end
 
   def self.lex(lines)
